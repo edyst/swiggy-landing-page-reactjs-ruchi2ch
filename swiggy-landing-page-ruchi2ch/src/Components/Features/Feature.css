@@ -1,0 +1,18 @@
+.feature{
+    text-align: center;
+
+}
+.feature img{
+    height: 200px;
+    padding-bottom: 30px;
+}
+.feature h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.feature p{
+    color: #c9b5ae;
+    font-size: 15px;
+    width: 280px;
+}
