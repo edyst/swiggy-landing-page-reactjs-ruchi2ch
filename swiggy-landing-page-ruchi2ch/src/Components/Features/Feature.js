@@ -1,9 +1,9 @@
 import React from 'react'
 import './Feature.css'
 
-function Features(props){
+function Feature(props){
  return(
-     <div className="feature">
+     <div className="single-feature">
          <img alt="alternate" src={props.src} />
          <h2>{props.heading}</h2>
           <p>{props.para1}</p>
@@ -11,4 +11,4 @@ function Features(props){
      </div>
  )
 }
-export default Features
+export default Feature

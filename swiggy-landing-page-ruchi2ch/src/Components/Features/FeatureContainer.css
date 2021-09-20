@@ -1,21 +1,16 @@
-.container{
+.feature-container{
     margin: auto;
-    padding: 10px 30px 60px 30px;
 }
 .features{
     background-color: #2b1e16;
 }
- .features .container{
+ .features .feature-container{
     display: flex;
     justify-content: space-around;
-    flex-flow: row wrap;
+    flex-flow:row wrap;
 } 
- @media(max-width:900px){
-    .features .container{
-        justify-content: space-evenly;
+@media (min-width:900px){
+    .features .feature-container{
+        justify-content: space-between;
     }
-    .feature .container {
-        margin: 0;
-        margin-right: 0;
-    }
-} 
+}

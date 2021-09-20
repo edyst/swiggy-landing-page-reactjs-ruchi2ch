@@ -1,0 +1,32 @@
+.FooterHead-features .footerHead-container{
+      
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+ }
+.footerHead-container{
+    line-height: 30px;  
+    color: white;
+    font-size: 17px;
+}
+ul{
+    list-style: none;
+}
+
+.heading{
+    color:gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+li{
+    line-height: 2.1em;
+    padding: 0;
+}
+li img{
+    padding-top:40px;
+    padding-right: 20px;
+}
+

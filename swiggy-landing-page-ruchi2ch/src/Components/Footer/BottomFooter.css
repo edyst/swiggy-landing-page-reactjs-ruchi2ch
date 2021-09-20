@@ -1,4 +1,15 @@
-body{
-    background-color: black;
-    color: wheat;
+.sec{
+    font-size: 20px;
+    
+}
+.third{
+    font-size: 20px;
+}
+.BottomContainer{
+    color:white;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    padding: 20px;
+
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import '../../../src/Images/Swiggy_logo.png'
+//import coloredLogo from '../../Images/swiggilogo.png'
 
 export default function Nav() {
     return (
         <div>
-            <img src="../../../src/Images/Swiggy_logo.png"/>
+           {/* <img src={coloredLogo}></img> */}
 
         </div>
     )

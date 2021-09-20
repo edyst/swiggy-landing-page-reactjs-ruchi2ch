@@ -1,18 +1,24 @@
-.feature{
+.single-feature{
     text-align: center;
 
 }
-.feature img{
-    height: 200px;
+@media (min-width:900px){
+    .single-feature{
+        padding-top: 0px;
+    }
+}
+.single-feature img{
+    height: 250px;
     padding-bottom: 30px;
 }
-.feature h2{
+.single-feature h2{
     color: white;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
 }
-.feature p{
-    color: #c9b5ae;
+.single-feature p{
+    color: #e0cbc1;
     font-size: 15px;
-    width: 280px;
+    width: 260px;
+    line-height: 1.3;
 }

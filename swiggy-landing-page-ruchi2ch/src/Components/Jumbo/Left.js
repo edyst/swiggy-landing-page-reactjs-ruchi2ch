@@ -4,8 +4,7 @@ import Nav from './Nav'
 export default function Left() {
     return (
         <div>
-            <Nav/>
-            
+            <Nav/>   
         </div>
     )
 }
