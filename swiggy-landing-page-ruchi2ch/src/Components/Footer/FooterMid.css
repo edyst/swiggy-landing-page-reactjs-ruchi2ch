@@ -3,9 +3,7 @@ h2{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
+    padding-left:100px;
 }
 ul{
     list-style: none;
@@ -15,8 +13,17 @@ ul{
 li{
     color: white;
 }
-.container{
+.footerMid .container{
     display: flex;
     flex-flow:row wrap;
     justify-content: space-around;
+}
+@media (max-width:900px){
+    .footerMid .container{
+        justify-content: space-between;
+    }
+    .footerMid .container ul{
+        min-width: 25ch;
+        padding-left: 10px;
+    }
 }

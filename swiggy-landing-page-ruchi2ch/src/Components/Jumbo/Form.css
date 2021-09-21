@@ -1,0 +1,62 @@
+
+h3{
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+    padding-bottom:30px ;
+}
+input{
+    border:1px solid #bebfc5;
+    box-shadow: none;
+    height: 58px !important;
+    line-height: 28px;
+    caret-color: #fc8019; 
+    padding-left: 15px;
+    padding-right: 160px;
+    font-size:18px;
+    font-weight: 500;
+}
+input:focus{
+    border:1px solid #fc8019;
+}
+.btnOrange{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-color: #fc8019;
+    height: 60px;
+    width: 140px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.dark{
+    text-decoration: none;
+    color: #686b78;
+    font-weight: 600;
+  }
+  .light{
+    text-decoration: none;
+    color: #93959f;
+    font-weight: 600;
+  }
+  .popularCities{
+      width: 570px;
+      padding-bottom: 30px;
+  }
+  .secondh3{
+      color:#a9abb2;
+      font-weight: 400;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: -.2px;
+      padding-top: 20px;
+      padding-bottom: 5px;
+  }

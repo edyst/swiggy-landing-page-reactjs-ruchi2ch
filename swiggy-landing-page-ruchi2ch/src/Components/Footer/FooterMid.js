@@ -14,7 +14,7 @@ export default function FooterMid() {
     const citiesP = PCities.map(item => <Places key={item.id} name={item.name}/>)
     
     return (
-        <div>
+        <div className="footerMid">
         <h2>We deliver to</h2>
         <div className="container">
             <ul>

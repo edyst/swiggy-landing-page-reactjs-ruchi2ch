@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    margin-top:60px;
+    padding:30px;
+  }
+  .main-right{
+    width: 850px;
+    position: relative;
+    background-image:url('https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq');
+    background-size:cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+  }
+  @media (max-with:900px){
+     .main-right{
+       z-index: -1;
+       position: absolute;
+       opacity: 0.3;
+     }     
+     .main-left{
+       justify-content: space-between;
+     }
+     .main{
+       padding: 0;
+     }
+  }  
