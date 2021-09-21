@@ -1,7 +1,6 @@
 .nav{
   margin-top: -25px;
   flex-flow: row wrap;
-  flex-wrap: wrap;
 }
 .login-cont{
     display: flex;
@@ -11,6 +10,7 @@
   .logo-main{
     width:180px;
     height:50px;
+    padding-right: 0;
   }
   .login-button{
     display: inline-block;
@@ -37,9 +37,4 @@
     font-size: 16px;
     font-weight: 700;
     width: 100px;
-  }
-  @media (max-width:900px){
-    .nav{
-        flex:1;
-    }
   }
